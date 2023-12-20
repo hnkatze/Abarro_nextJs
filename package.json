@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H 192.168.100.193",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "dexie": "^3.2.4",
+    "dexie-react-hooks": "^1.1.7",
+    "firebase": "^10.7.1",
+    "framer-motion": "^10.16.16",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
     "eslint": "^8",
